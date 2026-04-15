@@ -1,0 +1,201 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Najah Shahid
+title: Software Engineer | Full-Stack Developer
+email: najahshahidqaseem@gmail.com
+phone: +92 331 9834487
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  najah-shahid
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: najah-shahid
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hello, my name's Najah and I'm a graduating computer science undergraduate at LUMS. I have experience developing full-stack applications using multiple frameworks and languages including React, Flutter, Node.js, Express, MongoDB, Python, HTML, and CSS.
+  I have also explored UI/UX design and network security to build secure, responsive, and user-friendly applications.
+  Beyond web development, I have also explored computer vision to understand how it be used to solve real-world problems.
+
+  I am most skilled in: <mark>Software Development</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: O Level Vault
+        link: github.com/najah-shahid/O_Level_Vault
+        # link_text: Project Website
+        additional_links:
+          - title:  najah-shahid/O_Level_Vault
+            icon: fab fa-github
+            url: https://github.com/najah-shahid/O_Level_Vault
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A full-stack web application built using the MERN stack, enabling O Level students to access notes, past papers, AI-generated quizzes, and progress dashboards. 
+        description: | # this will include new lines to allow paragraphs
+          • Collaborated in a team of 5 to develop a full-stack web application using the MERN stack, enabling O Level students to access notes, past papers, AI-generated quizzes, and progress dashboards. 
+          • Designed and integrated parent-student account linking, enabling parents to monitor academic progress. 
+          • Built admin controls for user management (account updates, deletions), streamlining maintenance and improving 
+            platform security. 
+          • Contributed to both front-end and back-end development, applying best practices in modular design, authentication, and 
+            responsive UI. 
+
+      - layout: top-middle
+        title: Rating Prediction - Data Science Project
+        link: https://medium.com/@sajeelanwer3/anime-rating-prediction-model-1634454cba9e
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  najah-shahid/O_Level_Vault
+        #     icon: fab fa-github
+        #     url: github.com/najah-shahid/O_Level_Vault
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A data science project where we trained machine learning models to predict anime ratings and success.
+        description: | # this will include new lines to allow paragraphs
+          I collaborated in a team of 5 to train a machine learning model to predict anime ratings based on features available on MyAnimeList.
+          We preprocessed and analyzed a Kaggle dataset containing anime metadata using Python (NumPy, Pandas, Matplotlib, scikit-learn) which enabled identification of key data trends.
+          We trained a Linear Regression model to predict anime scores, achieving an R² score of 0.7153.
+          Finally, we trained a Logistic Regression model to predict anime success based on a score threshold of 6.5, achieving an accuracy of 84.55%.
+
+      - layout: top-middle
+        title: ArchConnect - Senior Year Software Engineering Project
+        link: https://github.com/najah-shahid/ArchConnect
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  najah-shahid/O_Level_Vault
+        #     icon: fab fa-github
+        #     url: github.com/najah-shahid/O_Level_Vault
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A centralized communication and collaboration platform built for architects to manage clients, vendors, documents, payments, progress updates, and communication all in one place.
+        description: | # this will include new lines to allow paragraphs
+          • Led a 5-member team in developing a centralized communication platform for architects.
+          • Managed deadlines, delegated tasks, and ensured timely milestone delivery.
+          • Built frontend using Flutter and backend using Node.js, Express, AWS S3, and MongoDB.
+          • Implemented secure Google OAuth authentication for streamlined login.
+          • Developed interactive Gantt chart features for scheduling and progress tracking.
+          • Built meeting scheduling integrated with Google Calendar.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Colourish Bubble
+        link: colourishbubble.com
+        # link_text: boringcompany.com
+        sub_title: Web Developer
+        caption: July 2025 – August 2025
+        quote: >
+          Colourish Bubble is an emerging, multidisciplinary design studio offering architectural, interior, and custom furniture design services with a focus on thoughtful, human-centered environments that are both visually refined and deeply functional.
+        description: | # this will include new lines to allow paragraphs
+          • Conducted client interviews to gather functional requirements for the firm’s website which streamlined the design process and ensured alignment with business goals. 
+          • Designed responsive and user-friendly UI mockups using Figma, accelerating client approval and reducing redesign 
+          cycles. 
+          • Developed and deployed a full-stack web application using React and PostgreSQL, enhancing the firm’s online 
+          presence and enabling seamless client interactions. 
+      - layout: left
+        title: Lahore University of Management Sciences (LUMS)
+        link: lums.edu.pk
+        # link_text: boringcompany.com
+        sub_title: Teaching Assistant for Data Structures
+        caption: January 2025 – May 2025
+        quote: >
+          A private research university in Lahore, Punjab, Pakistan.
+        description: | # this will include new lines to allow paragraphs
+          • Held weekly office hours to provide students with personalized academic support and guidance.
+          • Evaluated programming assignments and conducted vivas to assess students’ understanding of the assignment material.
+  - title: Research Experience
+    layout: list
+    content:
+
+      - layout: left
+        title: Computer Vision Directed Research
+        sub_title: Lahore University of Management Sciences (LUMS)
+        caption: January 2025 – May 2025
+        quote: >
+          Research focused on wildfire detection using deep learning.
+        description: |
+          • Reviewed 10+ research papers on CNN-based wildfire detection methods.
+          • Fine-tuned YOLO models on day/night wildfire datasets using Mixture of Experts.
+          • Trained a ResNet classifier for expert routing based on lighting conditions.
+          • Produced a comprehensive report covering methodology and results.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Lahore University of Management Sciences (LUMS)
+        caption: Sept 2022 – Present
+        sub_title: BSc Computer Science
+        quote: >
+          Lahore, Pakistan
+        description: | # this will include new lines to allow paragraphs
+          Relevant Coursework: Software Engineering, AI/ML, Computer Vision, Deep Learning, Network Security, Human-Computer Interaction.
+  - title: Skills
+    layout: text
+    content: |
+      • Languages: C/C++, JavaScript, TypeScript, Python, HTML, CSS, LaTeX, Dart
+      • Frameworks: React, Flutter, Node.js, Express, MongoDB
+      • Tools: Git, VS Code, Postman, Figma, Jupyter Notebook
+      • Libraries: NumPy, Pandas, Matplotlib, PyTorch, scikit-learn, OpenCV
+      • Soft Skills: Leadership, Communication, Problem Solving, Teamwork
+
+  - title: Achievements / Awards
+    layout: text
+    content: |
+      • Dean’s Honor List, LUMS (2023, 2024, 2025)
+      • Recognized for academic excellence and high GPA performance.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
