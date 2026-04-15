@@ -50,8 +50,6 @@ about_content: | # this will include new lines to allow paragraphs
   I have also explored UI/UX design and network security to build secure, responsive, and user-friendly applications.
   Beyond web development, I have also explored computer vision to understand how it be used to solve real-world problems.
 
-  I am most skilled in: <mark>Software Development</mark>
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -60,10 +58,10 @@ content:
         title: O Level Vault
         link: github.com/najah-shahid/O_Level_Vault
         # link_text: Project Website
-        additional_links:
-          - title:  najah-shahid/O_Level_Vault
-            icon: fab fa-github
-            url: https://github.com/najah-shahid/O_Level_Vault
+        # additional_links:
+        #   - title:  najah-shahid/O_Level_Vault
+        #     icon: fab fa-github
+        #     url: https://github.com/najah-shahid/O_Level_Vault
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -169,7 +167,7 @@ content:
         title: Lahore University of Management Sciences (LUMS)
         caption: Sept 2022 – Present
         sub_title: BSc Computer Science
-        quote: >
+        description: |
           Relevant Coursework: Software Engineering, AI/ML, Computer Vision, Deep Learning, Network Security, Human-Computer Interaction.
   - title: Skills
     layout: text
